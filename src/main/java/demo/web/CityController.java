@@ -32,8 +32,7 @@ public class CityController {
 
 
     @RequestMapping(value = "/manager", method = RequestMethod.GET)
-    @ResponseBody
     public String manager() {
-        return "/city/city";
+        return "city/city";
     }
 }
