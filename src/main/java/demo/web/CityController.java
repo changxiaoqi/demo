@@ -35,4 +35,6 @@ public class CityController {
     public String manager() {
         return "city/city";
     }
+
+
 }
